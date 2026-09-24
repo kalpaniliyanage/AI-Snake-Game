@@ -42,6 +42,7 @@ MediaPipe detects the hand landmarks and the system calculates the approximate c
 
 The palm position is then compared with a virtual joystick center to determine the direction of the snake.
 
+
 ### System Flow
 
 ```text
@@ -171,6 +172,8 @@ LEFT  ←   │   ●   │   → RIGHT
               ↓
              DOWN
 
+---
+```
 ---
 
 ## 👩‍💻 Author & Developer Details
