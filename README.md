@@ -79,3 +79,119 @@ The palm position is then compared with a virtual joystick center to determine t
                    │
                    ▼
              Score / Growth
+
+
+                  UP
+                  ↑
+                  │
+                  │
+          LEFT ←  ●  → RIGHT
+                  │
+                  │
+                  ↓
+                DOWN
+
+        🍎
+         │
+         ▼
+       🐍
+         │
+         ▼
+     Apple Eaten
+         │
+         ├── Score +10
+         │
+         ├── Snake Grows
+         │
+         ├── New Apple
+         │
+         └── Eating Sound
+
+┌────────────────────────┐
+│                        │
+│ 🐍 → → → → → → → ❌    │
+│                        │
+└────────────────────────┘
+
+     🐍
+      ↓
+  → → ↓
+      ↓
+  ← ← 🐍
+
+GAME OVER
+
+Press R to Restart
+
+AI-Hand-Controlled-Snake
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── create_sounds.py
+│
+├── models
+│   └── hand_landmarker.task
+│
+├── sounds
+│   ├── eat.wav
+│   └── game_over.wav
+│
+├── src
+│   ├── main.py
+│   ├── snake.py
+│   └── hand_tracker.py
+│
+└── venv
+
+┌──────────────────────────────────────────────────────────┐
+│              AI HAND CONTROLLED SNAKE                    │
+├─────────────────────────┬────────────────────────────────┤
+│                         │                                │
+│                         │       HAND CONTROL CAMERA      │
+│                         │                                │
+│       SNAKE GAME        │             ✋                 │
+│                         │                                │
+│                         │      Hand Landmarks           │
+│                         │                                │
+│                         │                                │
+├─────────────────────────┴────────────────────────────────┤
+│ Score: 10    Length: 6       R = Restart    Q = Quit    │
+└──────────────────────────────────────────────────────────┘
+
+UP
+              ↑
+
+          ┌───────┐
+          │       │
+LEFT  ←   │   ●   │   → RIGHT
+          │       │
+          └───────┘
+
+              ↓
+             DOWN
+
+---
+
+## 👩‍💻 Author & Developer Details
+
+| Attribute | Details |
+| :--- | :--- |
+| **Name** | **Kalpani M. Liyanage** |
+| **Role** | BICT (Hons) Undergraduate |
+| **Department** | Department of Information & Communication Technology |
+| **Faculty** | Faculty of Technology |
+| **University** | University of Sri Jayewardenepura, Sri Lanka |
+| **GitHub** | [@kalpaniliyanage](https://github.com/kalpaniliyanage) |
+
+---
+
+### 🤝 Connect with Me
+
+- 🌐 **GitHub:** [https://github.com/kalpaniliyanage](https://github.com/kalpaniliyanage)
+
+---
+
+## 📜 License
+
+This project is created for educational and learning purposes. Feel free to study, modify, and extend it.
